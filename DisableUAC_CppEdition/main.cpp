@@ -16,8 +16,10 @@ namespace RegEdit {
 			Sleep(7000);
 			exit(323);
 		}
-		key.TryDeleteValue(L"EnableLUA");
-		key.TrySetDwordValue(L"EnableLUA", 0);
+		key.DeleteValue(L"EnableLUA");
+		key.SetDwordValue(L"EnableLUA", 0);
+		key.SetDwordValue(L"ConsentPromptBehaviorAdmin", 0);
+		key.SetDwordValue(L"PromptOnSecureDesktop", 0);
 		std::cout << "Successfully Disabled UAC..." << std::endl;
 	}
 }
