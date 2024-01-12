@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 217 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DisableUAC_CppEdition.vcxproj -> C:\Users\gsx12\source\repos\DisableUAC_CppEdition\x64\Release\DisableUAC_CppEdition.exe
