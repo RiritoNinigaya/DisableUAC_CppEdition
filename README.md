@@ -1,2 +1,4 @@
 # DisableUAC_CppEdition
-DisableUAC_CppEdition by RiritoNinigaya
+It is My First UAC Disabler on C++ Programming... Enjoy to use this!!!
+
+**I'm Fixed Winreg HPP Header when Registry is Opened Successfully!!!**
