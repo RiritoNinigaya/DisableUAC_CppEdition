@@ -55,5 +55,5 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: release
-        path: D:\a\DisableUAC_CppEdition\DisableUAC_CppEdition\DisableUAC_CppEdition\*
+        path: D:\a\DisableUAC_CppEdition\DisableUAC_CppEdition\x64\Release\*
         if-no-files-found: error
