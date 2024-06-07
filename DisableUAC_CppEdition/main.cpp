@@ -3,7 +3,7 @@
 #include <WinReg.hpp>
 namespace RegEdit {
 	void SetReg() {
-		std::cout << "Hello, It is My First Cpp Disabler UAC... So Enjoy to use!!!" << std::endl;
+		std::cout << "Hello, It is My First Disabling UAC by RiritoNinigaya...(If you buying this program as exe by another man, you been scammed) So Enjoy to use!!!" << std::endl;
 		winreg::RegKey key{ HKEY_LOCAL_MACHINE, L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System", KEY_ALL_ACCESS };
 		if (!key) {
 			std::cout << "Failed to Opened This Folder!!!" << std::endl;
